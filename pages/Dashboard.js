@@ -7,14 +7,11 @@ function Dashboard() {
 
   return (
     <div id="dashboardPage">
-      <div id="message">msg</div>
+      <div id="message">{msg}</div>
 
-
-      <DataItem />
-
-
-
-
+      {data.map((d, index) => {
+        return <DataItem d={d} />;
+      })}
     </div>
   );
 }
