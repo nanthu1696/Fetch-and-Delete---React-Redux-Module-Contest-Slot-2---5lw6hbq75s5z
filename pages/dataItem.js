@@ -6,6 +6,7 @@ function DataItem({ }) {
 
     return (
         <div className="data">
+        {data.map((d, index) => 
             <div></div>
             <div>Bus Name: </div>
             <div>/-</div>
