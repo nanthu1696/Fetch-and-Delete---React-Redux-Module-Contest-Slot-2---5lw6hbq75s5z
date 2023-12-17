@@ -4,7 +4,7 @@ export const AuthContext = React.createContext();
 
 export default function App({ Component, pageProps }) {
   const [data, setData] = useState([]);
-  const [msg, setMsg] = useState("Data Deleted")
+  const [msg, setMsg] = useState("")
 
   const API = "https://content.newtonschool.co/v1/pr/63b70222af4f30335b4b3b9a/buses";
 
