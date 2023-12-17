@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { AuthContext } from "./_app";
 
 function DataItem({ }) {
-    const { } = useContext(AuthContext);
+    const { data } = useContext(AuthContext);
 
     return (
         <div className="data">
